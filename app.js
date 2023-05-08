@@ -1,3 +1,4 @@
+// Player 1 and 2 
 const p1 = {
     score: 0,
     button: document.querySelector('#p1Button'),
@@ -15,6 +16,7 @@ const winningScoreSelect = document.querySelector('#playto');
 let winningScore = 3;   
 let isGameOver = false;
 
+// Function updates score when user clicks on new score
 function updateScores(player, opponent){
     if(!isGameOver){
         player.score += 1;
@@ -41,6 +43,7 @@ winningScoreSelect.addEventListener('change', function() {
     reset();
 });
 
+// Scoreboard to original state
 resetButton.addEventListener('click', reset);
 
 function reset() {
