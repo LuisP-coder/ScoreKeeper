@@ -1,5 +1,5 @@
 # ScoreKeeper
-ScoreKeeper App
+ScoreKeeper App using Javascript
 
 
 Link to Page:
